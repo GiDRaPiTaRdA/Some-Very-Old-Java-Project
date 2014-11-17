@@ -41,7 +41,7 @@ public void setT(int t){
     public void move(float x, float y)
     {
         this.x +=x;
-        this.y +=y;
+        this.y +=y;   ////
         if (this.y >= 290)  this.y = 290;
         if (this.y <= 20)  this.y = 20;
         if (this.x <= 20)  this.x = 20;
